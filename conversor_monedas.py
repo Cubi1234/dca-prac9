@@ -111,7 +111,7 @@ elif moneda == ('rupia'):
         resultado_conversion=cantidad*1.76
         print(cantidad, '₹ en ¥ son ', resultado_conversion, '¥')
     if conversion == ('libra'):
-        resultado_conversion=cantidad*0.0011
+        resultado_conversion=cantidad*0.0013
         print(cantidad, '₹ en £ son ', resultado_conversion, '£')
         
 else:
