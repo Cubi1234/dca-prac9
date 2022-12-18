@@ -93,26 +93,7 @@ elif moneda == ('libra'):
         print(cantidad, '£ en RD$ son', resultado_conversion, 'RD$')
     if conversion == ('yen'):
         resultado_conversion=cantidad*156.04
-        print(cantidad, '£ en ¥ son ', resultado_conversion, '¥')
-        
-elif moneda == ('rupia'):
-    cantidad=int(input("Dime la cantidad de dinero que quieres invertir "))
-    conversion=input('¿A que moneda lo quieres convertir? ')
-    if conversion == ('euro'):
-        resultado_conversion = cantidad/78.73
-        print(cantidad, '₹ en € son', resultado_conversion, '€')
-    if conversion == ('dolar'):
-        resultado_conversion = cantidad*0.012
-        print(cantidad, '₹ en $ son ', resultado_conversion, '$')
-    if conversion == ('peso dominicano'):
-        resultado_conversion = cantidad*0.66
-        print(cantidad, '₹ en RD$ son', resultado_conversion, 'RD$')
-    if conversion == ('yen'):
-        resultado_conversion=cantidad*1.76
-        print(cantidad, '₹ en ¥ son ', resultado_conversion, '¥')
-    if conversion == ('libra'):
-        resultado_conversion=cantidad*0.0011
-        print(cantidad, '₹ en £ son ', resultado_conversion, '£')
+        print(cantidad, '£ en ¥ son ', resultado_conversion, ¥)
     
 else:
     print('Esa moneda no está registrada')
