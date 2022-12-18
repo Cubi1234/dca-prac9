@@ -93,7 +93,7 @@ elif moneda == ('libra'):
         print(cantidad, '£ en RD$ son', resultado_conversion, 'RD$')
     if conversion == ('yen'):
         resultado_conversion=cantidad*156.04
-        print(cantidad, '£ en ¥ son ', resultado_conversion, ¥)
+        print(cantidad, '£ en ¥ son ', resultado_conversion, '¥')
 
 elif moneda == ('rupia'):
     cantidad=int(input("Dime la cantidad de dinero que quieres invertir "))
